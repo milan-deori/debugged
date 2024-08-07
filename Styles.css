@@ -52,11 +52,11 @@ a{
     color: var(--light-color);
 }
 .srmh{
-    border-image-source: href=".image/banner1.jpg";
+    border-image-source: href'C:\Users\krish\OneDrive\Desktop\hospital website\banner1.jpg';
 }
 
 /* button */
-.btn button{
+.btn, button{
     border: none;
     cursor: pointer;
     bottom: 10px;
@@ -226,8 +226,6 @@ button[class ^= navbar]:hover{
     z-index: 1000;
 }
 /* navbar show class */
-
-
 .navbar-show{
     -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
@@ -408,16 +406,16 @@ place-items: center;
     color: #fff;
   }
   
-  <img src="C:\Users\krish\OneDrive\Desktop\hospital website\Patient-Care-Banner.jpg" alt="">
+  
   
   
 
 
-.about-right .img{
+  .about-right .img{
     padding-top: 10rem;
     -webkit-transform: scaleX(1.03);
-        -ms-transform : scaleX(1.03);
-            transform : scaleX(1.03);
+        -ms-transform: scaleX(1.03);
+            transform: scaleX(1.03);
 }
 .about-right .img::after, .about-right .img::before{
     content: "";
@@ -579,10 +577,10 @@ place-items: center;
     color: var(--light-color);
 }
 .package-service-head h2{
-    font-size: 39px;a
+    font-size: 39px;
 }
 .package-service-item{
-    padding:3rem  5rem;
+    padding: 3rem 5rem;
     position: relative;
     margin-bottom: 12rem;
 }
@@ -1083,6 +1081,9 @@ place-items: center;
             animation: none!important;
     -webkit-transition: none!important;
     -o-transition: none!important;
+    transition: none!important;
+}
+
     transition: none!important;
 }
 
